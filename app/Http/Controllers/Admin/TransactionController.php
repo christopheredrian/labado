@@ -13,11 +13,17 @@ class TransactionController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         //
-        $transactions = Transaction::Where('status','=','accepted')->get();
-        return view('admin.transactions.index')->with('transactions',$transactions);
+
+        if($request->type == 'r'){
+            $transactions = Transaction::Where('status','=','request')->get();
+        }else{
+            $transactions = Transaction::Where('status','=','accepted')->get();
+        }
+
+        return view('admin.transactions.index')->with('transactions',$transactions)->with('type',$request->type);
     }
 
     /**

@@ -175,7 +175,7 @@
                 </li>
 
                 <li>
-                    <a href="/admin">
+                    <a href="/transactions?type=r">
                         <i class="fa fa-handshake-o"></i>
                         <span>Requests</span>
                     </a>
@@ -183,7 +183,7 @@
                 </li>
 
                 <li>
-                    <a href="/transactions">
+                    <a href="/transactions?type=t">
                         <i class="fa fa-money"></i>
                         <span>Transactions</span>
                     </a>
@@ -191,7 +191,7 @@
                 </li>
 
                 <li>
-                    <a href="/admin">
+                    <a href="/customers">
                         <i class="fa fa-address-book"></i>
                         <span>Customers</span>
                     </a>
