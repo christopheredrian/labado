@@ -21,6 +21,8 @@ class CreateCustomersTable extends Migration
             $table->double('latitude');
             $table->double('longitude');
             $table->string('phone');
+            $table->integer('user_id')->unsigned()->nullable();
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

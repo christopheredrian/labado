@@ -21,6 +21,8 @@ class CreateTransactionsTable extends Migration
             $table->dateTime('date_pickedup');
             $table->dateTime('date_delivered');
             $table->dateTime('date_paid');
+            $table->integer('customer_id')->unsigned()->nullable();
+            $table->foreign('customer_id')->references('id')->on('customers');
             $table->timestamps();
         });
     }
