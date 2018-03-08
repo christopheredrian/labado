@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Research Division</title>
+    <title>LabaDo</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -58,9 +58,9 @@
         <!-- Logo -->
         <a href="/admin" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>R</b>DBC</span>
+            <span class="logo-mini"><b>LD</b></span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>Research</b>Division</span>
+            <span class="logo-lg"><b>LabaDo</b></span>
         </a>
 
         <!-- Header Navbar: style can be found in header.less -->
@@ -176,7 +176,7 @@
 
                 <li>
                     <a href="/admin">
-                        <i class="fa fa-dashboard"></i>
+                        <i class="fa fa-handshake-o"></i>
                         <span>Requests</span>
                     </a>
 
@@ -184,7 +184,7 @@
 
                 <li>
                     <a href="/transactions">
-                        <i class="fa fa-dashboard"></i>
+                        <i class="fa fa-money"></i>
                         <span>Transactions</span>
                     </a>
 
@@ -192,7 +192,7 @@
 
                 <li>
                     <a href="/admin">
-                        <i class="fa fa-dashboard"></i>
+                        <i class="fa fa-address-book"></i>
                         <span>Customers</span>
                     </a>
 
@@ -226,7 +226,7 @@
         <div class="pull-right hidden-xs">
             <b>Version</b> 0.1
         </div>
-        <strong>Copyright &copy; 2017 <a href="https://adminlte.io"> Research Division, Baguio City</a>.</strong> All
+        <strong>Copyright &copy; 2017 <a href="https://adminlte.io"> LabaDo</a>.</strong> All
         rights
         reserved.
     </footer>

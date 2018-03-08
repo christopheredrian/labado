@@ -21,7 +21,7 @@
                         </tr>
                         @foreach($transactions as $transaction)
                             <tr>
-                                <td></td>
+                                <td>{{$transaction->customer->first_name.' '.$transaction->customer->last_name}}</td>
                                 <td>{{$transaction->amount}}</td>
                                 <td>{{$transaction->date_requested}}</td>
                                 <td>{{$transaction->date_pickedup}}</td>
