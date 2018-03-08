@@ -50,7 +50,7 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition sidebar-mini fixed">
+<body class="hold-transition skin-black sidebar-mini fixed">
 <div class="wrapper">
 
     <header class="main-header">
@@ -183,7 +183,7 @@
                 </li>
 
                 <li>
-                    <a href="/admin">
+                    <a href="/transactions">
                         <i class="fa fa-dashboard"></i>
                         <span>Transactions</span>
                     </a>
