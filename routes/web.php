@@ -24,6 +24,7 @@ Route::get('/admin', function(){
 });
 
 Route::resource('transactions', 'Admin\\TransactionController');
+Route::resource('customers', 'Admin\\CustomerController');
 
 Auth::routes();
 
